@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
     <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="js-clock">
@@ -13,8 +16,15 @@
     <form class="js-form form">
         <input type="text" placeholder="Hello! I want to know your name." />
     </form>
-    <h4 class="js-greetings greetings"></h4>
+    <h3 class="js-greetings greetings"></h3>
+    <form class="js-toDoForm">
+        <label for="todo">It's a perfect day to</label>
+        <input type="text" id="todo" name="todo" placeholder="do..."/>
+    </form>
+    <ul class="js-toDoList">
+    </ul>
     <script src="clock.js"></script>
     <script src="name.js"></script>
+    <script src="todolist.js"></script>
 </body>
 </html>

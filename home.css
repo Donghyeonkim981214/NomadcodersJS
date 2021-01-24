@@ -6,3 +6,48 @@
 .showing {
   display: block;
 }
+
+.js-clock {
+  font-family: "Jua", sans-serif;
+  font-size: 30px;
+}
+
+.js-form,
+.js-greetings {
+  font-family: "Jua", serif;
+  font-size: 100px;
+}
+
+.js-toDoForm {
+  font-family: "Gamja Flower", cursive;
+  font-size: 50px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  transition: width 0.4s ease-in-out;
+  font-family: "Gamja Flower", cursive;
+  font-size: 45px;
+}
+
+input:focus {
+  width: 30%;
+}
+
+.js-toDoList {
+  font-family: "Gamja Flower", cursive;
+  font-size: 30px;
+}
+
+button {
+  outline: none;
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
